@@ -1,0 +1,34 @@
+body {
+  font-family: Palatino;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,76,1) 39%, rgba(0,212,255,1) 100%);
+  color: white ;
+
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(9,121,10,1) 49%, rgba(241,244,241,1) 91%, rgba(243,245,245,1) 100%);
+  -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#reading-list {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#reading-list > li{
+  border: 2px groove white;
+}
+
+input[type=text] {
+  background: rgb(10,16,244);
+  background: linear-gradient(90deg, rgba(10,16,244,1) 0%, rgba(119,9,121,1) 49%, rgba(251,255,7,1) 100%);
+  color: white;
+}
+
+select{
+  background: rgb(10,16,244);
+  background: linear-gradient(90deg, rgba(10,16,244,1) 0%, rgba(119,9,121,1) 49%, rgba(251,255,7,1) 100%);
+  color: white;
+}
